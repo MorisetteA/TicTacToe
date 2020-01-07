@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   table, td {
+     border: 1px solid black;
+   }
+ </style>
+</head>
+<body>
+<header>
+ <h2><center>Tic Tac Toe</center></h2>
+</header>
+<table style="width:25%">
+ <tr>
+  <td id="TTT" onclick="myFunction()">?</td>
+  <td id="TTT" onclick="myFunction()">?</td>
+  <td id="TTT" onclick="myFunction()">?</td>
+ </tr>
+ <tr>
+  <td id="TTT" onclick="myFunction()">?</td>
+  <td id="TTT" onclick="myFunction()">?</td>
+  <td id="TTT" onclick="myFunction()">?</td>
+ </tr>
+ <tr>
+ <td id="TTT" onclick="myFunction()">?</td>
+ <td id="TTT" onclick="myFunction()">?</td>
+ <td id="TTT" onclick="myFunction()">?</td>
+ </tr>
+ <tr>
+  <td colspan="3" style="font-size: 25px;>begin</td>
+ </tr>
+ <tr>
+  <td colspan="3">New Game</td>
+ </tr>
+</table>
+<script>
+ function myFunction() {
+  document.getElementById('TTT').innerHTML = 'x';
+ }
+</script>
+body>
+</html>
